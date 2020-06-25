@@ -1,0 +1,131 @@
+ul{
+    list-style: none;
+}
+.app-header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    z-index: 1050;
+    padding-right: 50px;
+}
+.app-header_logo{
+    flex: 1 0 auto;
+    font-size: 26px;
+    padding: 0 35px;
+    line-height: 50px;
+}
+.app-nav{
+    display: flex;
+    margin-bottom: 0;
+    justify-content: flex-end;
+}
+.app-nav_item{
+    display: block;
+    padding: 18px;
+    line-height: 18px;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+.app-nav_item:hover,
+.app-nav_item:focus{
+    background: rgba(0,0,0,.1);
+}
+.app-sidebar_toggle{
+    padding: 0 15px;
+    color: #fff;
+    line-height: 50px;
+    display: none;
+    transition: background-color 0.3s ease;
+}
+.app-sidebar_toggle:focus,
+.app-sidebar_toggle:hover{
+    color: #fff;
+    background-color: rgba(0,0,0,0.1);
+}
+.app-sidebar_toggle > span{
+    display: inline-block;
+    padding: 15px;
+}
+
+.app-sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding-top: 55px;
+    width: 120px;
+    overflow: auto;
+    z-index: 10;
+    box-shadow: 0px 8px 17px rgba(0,0,0,.2);
+    transition: left 0.3s ease,
+                width 0.3s ease;
+}
+.app-menu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.app-menu_item{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 12px 15px;
+    border-left: 2px solid transparent;
+}
+.app.sidebar-toggled .app-sidebar {
+    left: 0px;
+}
+.app-content{
+    min-height: calc(100vh - 50px);
+    margin-top: 50px;
+    padding: 30px;
+    background-color: #F7F8FA;
+    margin-left: 120px;
+    transition: margin-left 0.3s ease;
+}
+.custom-border{
+    width: 21px;
+    height: 40px;
+    border: 2px solid #FE637E;
+    border-radius: 29px;
+    cursor: pointer;
+}
+
+
+/* media queries section */
+/* tablet and below */
+@media(max-width:767px){
+    .app-content{
+        margin-left:0;   
+    }
+    .app-sidebar{
+        left: -120px;
+    }
+    .app-sidebar_toggle{
+        order: -1;
+    }
+}
+/* is suppose to be 480px though */
+@media(max-width:600px){
+    .app-search{
+        display: none;
+    }
+}
+@media(min-width:768px){
+    .app-header_logo{
+        flex: 0 0 auto;
+        display: block;
+        width: 120px;
+    }
+    .app-nav{
+        flex: 1 0 auto;
+    }
+}
+@media(max-width:768px){
+    .app-sidebar_toggle{
+        display: block;
+    }
+}

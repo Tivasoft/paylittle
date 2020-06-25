@@ -1,0 +1,554 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden!important;
+}
+a{
+    text-decoration: none!important;
+}
+img{
+    max-width: 100%!important;
+}
+.form-check-input{
+    color: azure!important;
+}
+.main-wrapper {
+    height: auto;
+    background-color:#eee;
+}
+.full-vh{
+   background-color:#eee;
+    height: 100vh;
+}
+
+.nav-bar-img{
+    top: 2rem;
+    width: 3rem;
+}
+/* colors and background colors */
+.color-white{
+    color: #fff !important;
+}
+.color-white-dark{
+    color: #F3EFEF;
+}
+.main-color{
+    color: #6448C5 !important;
+}
+.color-green{
+    color: #4B8A5E!important;
+}
+.color-black{
+    color: #000!important;
+}
+.color-gray{
+    color: #7A7A7A!important;
+}
+.color-light-gray{
+    color: #F5F5F5;
+}
+.color-blackish-gray{
+    color: #474747!important;
+}
+.color-deep-gray{
+    color: #333333!important;
+}
+.color-tomato{
+    color: #FE637E!important;
+}
+.bg-main-color{
+    background-color: #6448C5 !important;
+}
+.bg-color-white{
+    background-color: #fff !important;
+}
+.bg-color-black{
+    background-color: #000 !important;
+}
+.bg-color-light-gray{
+    background-color: #F5F5F5;
+}
+.bg-color-gray{
+    background-color: #F3EFEF!important
+}
+.bg-dark-gray{
+    background-color: #7A7A7A!important;
+}
+.bg-sky{
+    background-color: #D5E9FF!important;
+}
+.bg-color-fb{
+    background-color: #3B5998!important;
+}
+.bg-color-green{
+    background-color: #4B8A5E!important;
+}
+/* all customize buttons */
+.btn-green{
+    border: 1px solid #4B8A5E;
+    border-radius: 5rem !important;
+    padding: .2rem 2rem !important;
+    transition: background 0.3s ease;
+}
+.btn-green:hover{
+    background-color: #fff!important;
+    color: #4B8A5E !important;
+}
+.btn-tomato{
+    border: 1px solid #FE637E;
+    border-radius: 5rem !important;
+    padding: .2rem 2rem !important;
+    transition: background 0.3s ease;
+}
+.btn-tomato:hover{
+    background-color: #FE637E!important;
+    color: #fff !important;
+}
+.mybtn-no-border{
+    border-radius: 5rem !important;
+    padding: .2rem 2rem !important;
+    transition: background 0.3s ease;
+}
+.mybtn{
+    border-radius: 5rem !important;
+    padding: .2rem 2rem !important;
+    border: 1px solid #6448C5 !important;
+    transition: background 0.3s ease;
+}
+.mybtn:hover{
+    background-color: #fff!important;
+    color: #6448C5 !important;
+}
+.mybtn-sm{
+    border: 1px solid #6448C5 !important;
+    padding: .1rem 1rem !important;
+    border-radius: 5rem !important;
+    transition: background 0.4s ease-in;
+}
+.mybtn-sm:hover{
+    background-color: #6448C5 !important;
+    color: #fff!important;
+}
+.my-nav-btn{
+    border: 1px solid #6448C5 !important;
+    border-radius: 5rem!important;
+}
+.my-gmail-btn{
+    border: 1px solid #F1584D!important;
+    padding: .1rem 1rem !important;
+    border-radius: 5rem !important;
+}
+.subscribe-btn{
+    padding: .1rem 2rem !important;
+    line-height: 2.7rem!important;
+}
+/*button ends */
+.line-rule{
+    max-width: 200px;
+    position: relative;
+}
+.line-rule:after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    border-radius: 5rem;
+    background-color: #000000;
+    left: -10%;
+    bottom: -75%;
+}
+.line-rule-sm{
+    max-width: 100px;
+    position: relative;
+}
+.line-rule-sm:after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 80px;
+    height: 3px;
+    border-radius: 5rem;
+    background-color: #000000;
+    left: 0;
+    bottom: -75%;
+}
+.line-divider{
+    max-width: 600px;
+    position: relative;
+}
+.line-divider span{
+    color: #BEBEBE;
+    font-weight: 300;
+}
+.line-divider:before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 90px;
+    height: 1px;
+    background-color: #D8D8D8;
+    left: 0;
+    top: 50%;
+}
+.line-divider:after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 90px;
+    height: 1px;
+    background-color: #D8D8D8;
+    right: 0;
+    top: 50%;
+}
+/* fonts section */
+.font-lg{
+    font-size: 1.8rem !important;
+}
+.font-semi-lg{
+    font-size: 1.4rem !important;
+}
+.font-semi{
+    font-size: 1.2rem;
+}
+.font-sm{
+    font-size: .8rem !important;
+    line-height: 1.6rem!important;
+}
+.font-xm{
+    font-size: .6rem!important;
+    font-weight: 400!important;
+    letter-spacing: 1px;
+}
+.font-xm-normal{
+    font-size: .7rem!important;
+}
+.font-xm-small{
+    font-size: .6rem!important;
+}
+.font-normal{
+    font-size: .8rem!important;
+    font-weight: 500!important;
+    letter-spacing: 1px;
+}
+.font-half{
+    font-size: .7rem!important;
+    font-weight: 400!important;
+    letter-spacing: 1px;
+}
+.custom-link{
+    text-decoration: none!important;
+    color: #000!important;
+}
+.svg-icons{
+    width: 1.4rem;
+    height: auto;
+}
+.svg-icon-fb{
+    width: 1rem;
+    height: auto;
+}
+.custom-appear{
+    position: relative;
+    z-index: 10;
+}
+.fa-icon{
+    font-size: 2rem!important;
+    color: #6448C5;
+}
+.fa-icon-2{
+    font-size: 1.4rem!important;
+    color: #000;
+} 
+.icon { 
+    padding: 10px; 
+    min-width: 20px;
+    max-width: 35px;
+    position: absolute;
+    top: 8.9rem;
+    right: 3rem;
+}
+.icon-2 { 
+    padding: 10px; 
+    min-width: 20px;
+    max-width: 35px;
+    position: absolute;
+    top: 6.2rem;
+    right: 3rem;
+}
+.icon-3 { 
+    padding: 10px; 
+    min-width: 20px;
+    max-width: 35px;
+    position: absolute;
+    top: 9.6rem;
+    right: 3rem;
+}
+.big-font{
+    font-size: 5rem;
+}
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left: 0;
+}
+.icon-font{
+    font-size: 1.6rem;
+}
+/*thead tr td {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+*/
+td {
+    padding: .3rem .1rem!important;
+    border: 0!important;
+}
+tr{
+    border-bottom: 1px solid #e8e8e8!important;
+    border-top: 0!important;
+}
+.full-width{
+    width: 100%!important;
+}
+.padd-3{
+    padding-top: 3rem!important;
+}
+.marg-b-6{
+    margin-bottom: 6rem!important;
+}
+.custom-label{
+    font-size: 12px; 
+    margin-bottom: -5px!important;
+    color: #929191;
+    padding-left: 5px;
+}
+.reset-margin{
+    margin-left: -20px!important;
+    margin-right: -20px!important;
+}
+.relative{
+    position: relative;
+}
+.absolute-text{
+    position: absolute;
+    left: 15px;
+    top: 0;
+}
+.absolute-link{
+    position: absolute;
+    top: 40%;
+    color: #fff;
+}
+.absolute-icon{
+    position: absolute;
+    right: 2rem;
+    top: 2.5rem;
+}
+.left{
+    left: 4%;
+}
+.right{
+    right: 4%;
+}
+.custom-flex{
+    display: flex;
+    justify-content: center;
+    
+}
+.custom-px{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.padd-y-5{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.padd-x-3{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.border-color-main{
+    border: 1px solid #6448C5;
+}
+.border-radius-half{
+    border-radius: .5rem;
+}
+.border-radius-1{
+    border-radius: .8rem;
+}
+.custom-radius-right{
+    border-bottom-right-radius: 40%;
+    border-top-right-radius: 40%;
+}
+.customize-bg-container{
+    position: absolute;
+    width: 58%;
+    height: 100vh;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    border-top-left-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+    transition: all 650ms cubic-bezier(1, 0, 0, 1);
+    transform: rotate(-20deg) translate(7rem, -6rem);
+}
+.customize-bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../img/png-hd-of-homes-finest-houses-design-pictures-houses-design-pictures-with-ideas-hd-images-home-mariapngt-1435@2x.png) center no-repeat;
+    background-size: cover;
+}
+.bg-image-custom{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: -moz-linear-gradient(135deg, #6448C5 0%, #6448C5 25%, #6448C5 50%, #6448C5 75%, #6448C5 100%);
+    background: -webkit-linear-gradient(135deg, #6448C5 0%, #6448C5 25%, #6448C5 50%, #6448C5 75%, #6448C5 100%);
+    background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, .8)), to(rgba(0, 0, 0, 1)));
+    background: -o-linear-gradient(135deg, #6448C5 0%, #6448C5 25%, #6448C5 50%, #6448C5 75%, #6448C5 100%);
+    background: linear-gradient(135deg, #6448C5 0%, #6448C5 25%, #6448C5 50%, #6448C5 75%, #6448C5 100%);
+    opacity: 0.98;
+}
+.span-after{
+    position: relative;
+    display: inline-block;
+}
+.span-after:after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 110px;
+    height: 3px;
+    background-color: #000;
+    right: 4px;
+    bottom: -8px;
+}
+.z-index-5{
+    z-index: 5;
+}
+.adjust-margin{
+    margin: 3rem;
+}
+.road-map{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.first-ul {
+    border-left: 10px solid #6448C5;
+    margin: 0 auto;
+    position: relative;
+    padding: 5rem;
+    list-style: none;
+    text-align: left;
+}
+.first-ul::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background: #6448C5;
+    top: -2px;
+    left: -1.8rem;
+}
+.first-ul::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background: #6448C5;
+    bottom: 15rem;
+    left: -1.8rem;
+}
+.road-map-circle{
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background: #6448C5;
+    left: -1.8rem;
+    top: 20rem;
+}
+.road-map h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    margin-right: 8rem;
+}
+.list-square{
+    list-style: square;
+}
+
+.road-map .date {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+}
+
+.road-map .date:last-of-type {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: none;
+}
+.padd-y-2{
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+.zoom_out{
+    z-index: 1000;
+    top: 0;
+    left:  0;
+}
+.my-footer{
+    position: relative;
+    background: url(../img/png-hd-of-homes-finest-houses-design-pictures-houses-design-pictures-with-ideas-hd-images-home-mariapngt-1435@2x.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+.my-footer:before {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-color: rgba(0, 0, 0, .89);
+}
+.my-header{
+    position: relative;
+    background: url(../img/luxhouse4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: relative;
+    width: 100%;
+    height: 50vh;
+}
+.black-color-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+    background: rgba(0,0,0,.7);   
+}
+
+@media(max-width:767px){
+    .z-index-5{
+        background-color: #6448C5;
+    }
+}
